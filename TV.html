@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Icon -->
+    <link rel="icon" href="./img/fav.png">
+    <link rel="stylesheet" href="css/normaliz.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css" />
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/TV.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>TV.live</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Box icons -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="data-container row">
+        <!-- <a class="developer" href="https://ahmedosama0js.github.io/my-page/">Ahmed Osama</a> -->
+        <nav class="sidebar-left col-1">
+          <div class="w-100">
+            <div class="w-100 astmaa">
+              <a title="astmaa" href="astmaa.html"
+                ><i class="fa-solid fa-headphones"></i
+              ></a>
+            </div>
+            <div class="w-100 qraa">
+              <a title="qraa" href="reads.html"
+                ><i class="fa-brands fa-readme"></i
+              ></a>
+            </div>
+            <div class="w-100 live">
+              <a title="radio.html" href="radio.html"
+                ><i class="fa-solid fa-radio"></i
+              ></a>
+            </div>
+            <div class="w-100 live">
+              <a class="active" title="TV.html" href="TV.html"
+                ><i class="fa-solid fa-tv"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
+        <div class="container-tV col-11">
+          <div class="TV">
+            <video id="myVideo" class="video-js" controls preload="auto" width="500" height="300">
+              <source
+                src="https://win.holol.com/live/quran/playlist.m3u8"
+                type="application/x-mpegURL"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+        <script src="https://vjs.zencdn.net/7.11.4/video.js"></script>
+        <script src="JS/all.min.js"></script>
+        <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="js/TV.js"></script>
+  </body>
+</html>
