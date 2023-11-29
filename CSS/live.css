@@ -40,7 +40,7 @@ background: linear-gradient(to left, #190c64ce, #3924ad00);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: none;
 }
 .container-radio .icon {
@@ -149,7 +149,7 @@ background: linear-gradient(to left, #190c64ce, #3924ad00);
   }
 }
 .sidebar-right {
-  border: 2px solid rgb(242, 0, 255);
+  /* border: 2px solid rgb(242, 0, 255); */
   /* width: 500px; */
   margin-left: auto;
   width: 100%;
