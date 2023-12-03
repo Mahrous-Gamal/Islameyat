@@ -1,11 +1,12 @@
 .quran {
-  margin-top: 120px;
+  margin-top: 100px;
 
 }
 
 .surhasContainer {
   align-items: center;
   padding-bottom: 50px;
+
 }
 
 .surhasContainer .surah {
@@ -32,6 +33,7 @@
   -o-transition: all .3s ease-in-out;
   background-color: #1f2947;
   color: white;
+
 }
 
 .surhasContainer .surah .surah-img {
@@ -57,16 +59,17 @@
 }
 
 .surah-popup {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 2000;
+  z-index: 10000;
   background-color: #fff;
   overflow-y: hidden;
   transform: translateX(100%);
+
 }
 
 .surah-popup.active {

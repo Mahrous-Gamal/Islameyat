@@ -26,6 +26,7 @@ html {
 
 body {
     direction: rtl;
+    /* background-color: #111c35; */
     
 }
 
@@ -272,50 +273,7 @@ nav .nav-item {
     background-size: cover;
 }
 
-.hadithContainer {
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fdf7e8));
-    background: -webkit-linear-gradient(top, transparent, #fdf7e8);
-    min-height: 350px;
-    position: relative;
-    box-shadow: 4px 4px 4px 0 #d1d9e6 inset, -4px -4px 4px 0px #d1d9e6 inset;
-    color: #232323;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 20px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-}
 
-.hadith .buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.hadith .buttons div {
-    background-color: var(--main-color);
-    color: #fff;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.hadith .buttons .number {
-    padding: 10px 20px;
-    color: var(--main-color);
-    background: transparent;
-    border: 2px solid grey;
-
-}
 
 .readers-section {
     padding: 30px 0;
