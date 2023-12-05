@@ -27,14 +27,14 @@ html {
 body {
     direction: rtl;
     /* background-color: #111c35; */
-    
+
 }
 
 :root {
-    --main-color: #d5b665;
+    --main-color: #DC9C51;
     --text-color: #fff;
     --other-color: #212121;
-    --second-color: #9e9e9e;
+    --second-color: #3F200C;
     --bg-color: #111111;
 
     /* fonts */
@@ -50,6 +50,7 @@ body {
 .general-header {
     font-family: 'thuluth-decorated';
     color: var(--main-color);
+text-align: center;
 }
 
 .general-color {
@@ -154,14 +155,15 @@ a {
     background: transparent;
     transition: all 0.5s ease;
     padding: 5px 8%;
-    background-color: #535c7e;
+    background-color: #3F200C;
 }
 
-.logo {
+.logo,
+.logo span {
     display: flex;
     align-items: center;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'thuluth-decorated';
 
 }
@@ -178,15 +180,23 @@ a {
     font-size: 18px;
     /* border: 2px solid rgb(0, 187, 255); */
     margin-top: 5px;
-    background-color: gray;
+    /* background-color: gray; */
+    /* border: 2px solid red; */
+    /* align-items: center; */
+    margin-top: 10px;
 
+    padding: 0 !important;
+}
+
+.nav-list li {
+    margin-left: 50px;
 }
 
 .nav-list a {
     color: var(--text-color);
     font-size: var(--p-font);
     font-weight: 600;
-    margin: 0 30px;
+    /* margin: 0 30px; */
     transition: all 0.5s ease;
     /* color: green; */
 }
@@ -230,7 +240,7 @@ a {
     color: var(--text-color);
 }
 
-@media only screen and (max-width:1800px) {
+@media only screen and (max-width:1300px) {
     #menu-icon {
         display: initial;
     }
@@ -243,7 +253,7 @@ a {
         display: flex;
         flex-direction: column;
         text-align: left;
-        /* background: var(--other-color); */
+        background: var(--other-color);
         transition: all 0.5s ease;
     }
 
@@ -267,24 +277,42 @@ nav .nav-item {
 
 .main-section {
     height: 100vh;
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/1.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
-
+.main-section h2 {
+    position: absolute;
+    top: 50%;
+    right:0;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    font-size: 30px;
+}
 
 .readers-section {
-    padding: 30px 0;
+    padding: 80px 0;
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fdf7e8));
     background: -webkit-linear-gradient(top, transparent, #fdf7e8);
+    background-image: url(../img/Rectangle\ 3.png);
+
+    /* background-image: url(../img/ART-32\ 1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .readers-section .card {
     padding-bottom: 2px;
-    background-color: #0c1e54;
-    transition: all .3s ease;
+    background: linear-gradient(0deg, #3F200C, #3F200C),
+    linear-gradient(0deg, #EFAC5A, #EFAC5A);
+        transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -319,10 +347,24 @@ nav .nav-item {
 }
 
 .websites {
-    padding-bottom: 30px;
+border: 2px solid red;
     padding-bottom: 50px;
-}
+    /* min-height: 80vh; */
+    background-image: url(../img/ART-32\ 1.png);
 
+    /* background-image: url(../img/ART-32\ 1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #e8dac3;
+}
+.imag-q{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.imag-q img{
+max-width:  100%;
+}
 .websites .website {
     padding: 20px;
     height: 150px;
@@ -337,33 +379,60 @@ nav .nav-item {
     -o-transition: all .3s ease;
     cursor: pointer;
     border: 1px solid var(--main-color);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  
 }
 
 .website-1 {
+    height: 125px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--main-color);
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    padding-left: 20px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+.website-3 {
     flex-direction: column;
-}
-.website-1 a{
-   transition: all .3s ease;
-   -webkit-transition: all .3s ease;
-   -moz-transition: all .3s ease;
-   -ms-transition: all .3s ease;
-   -o-transition: all .3s ease;
-   color: gray;
-}
-.website-1 a:hover{
-color: var(--main-color);
  }
-.website-1 p {
+.website-1 img{
+    height: 125px
+}
+.website-1 a ,.website-3 a {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    color: #5585BD;
+
+}
+
+.website-1 a:hover ,.website-3 a:hover{
+    color: var(--main-color);
+}
+
+.website-1 p ,.website-3 p{
     flex-direction: column;
     font-size: 25px;
 }
 
-.websites .website:hover {
+.websites .website:hover ,.websites .website-1:hover   {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
@@ -371,7 +440,37 @@ color: var(--main-color);
     -o-transform: scale(1.05);
 }
 
+.web{
+    padding: 50px 0 !important;
+    /* background-image: url(../img/Rectangle\ 10.jpg); */
 
+    /* background-image: url(../img/ART-32\ 1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    
+}
+.cc{
+    /* z-index: 000 !important; */
+ /* color: white; */
+}
+.web-link{
+    z-index: 200 !important;
+
+}
+.web::after{
+    position: absolute;
+    content: "";
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+z-index: 1;
+top: 0;
+left: 0;
+
+    
+}
 
 footer {
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fdf7e8));
