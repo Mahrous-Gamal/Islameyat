@@ -26,7 +26,7 @@ html {
 
 body {
     direction: rtl;
-    /* background-color: #111c35; */
+    background-color: #e8dac3;
 
 }
 
@@ -297,15 +297,15 @@ nav .nav-item {
 }
 
 .readers-section {
-    padding: 80px 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fdf7e8));
-    background: -webkit-linear-gradient(top, transparent, #fdf7e8);
-    background-image: url(../img/Rectangle\ 3.png);
+    padding: 60px 0 100px 0;
+    background-image: url(../img/ART-32\ 1.png) ; 
 
     /* background-image: url(../img/ART-32\ 1.png); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-color: #e8dac3;
+    /* border: 2px solid greenyellow; */
 }
 
 .readers-section .card {
@@ -347,8 +347,8 @@ nav .nav-item {
 }
 
 .websites {
-border: 2px solid red;
-    padding-bottom: 50px;
+/* border: 2px solid red; */
+    padding-bottom: 80px;
     /* min-height: 80vh; */
     background-image: url(../img/ART-32\ 1.png);
 
@@ -379,12 +379,11 @@ max-width:  100%;
     -o-transition: all .3s ease;
     cursor: pointer;
     border: 1px solid var(--main-color);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-  
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
 }
 
 .website-1 {
@@ -409,7 +408,9 @@ max-width:  100%;
 }
 .website-3 {
     flex-direction: column;
+    z-index: 2000 !important;
  }
+ 
 .website-1 img{
     height: 125px
 }
@@ -441,19 +442,27 @@ max-width:  100%;
 }
 
 .web{
-    padding: 50px 0 !important;
-    /* background-image: url(../img/Rectangle\ 10.jpg); */
+    margin-top: 30px;
+    padding:150px 0 !important;
+    background-image: url(../img/Rectangle\ 10.jpg);
 
     /* background-image: url(../img/ART-32\ 1.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* position: relative; */
+    position: relative;
     
 }
-.cc{
-    /* z-index: 000 !important; */
- /* color: white; */
+.web1{
+    margin-top: 30px;
+    padding:90px 0 !important;
+    background-image: url(../img/ART-32\ 1.png);
+
+    /* background-image: url(../img/ART-32\ 1.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: contain;
+    background-color: #e8dac3;
 }
 .web-link{
     z-index: 200 !important;
@@ -464,12 +473,18 @@ max-width:  100%;
     content: "";
 width: 100%;
 height: 100%;
-background-color: rgba(0, 0, 0, 0.6);
-z-index: 1;
+background-color: rgba(0, 0, 0, 0.3);
+/* z-index: 1; */
 top: 0;
 left: 0;
 
     
+}
+
+.cc{
+    z-index: 200 !important;
+ /* color: white; */
+
 }
 
 footer {

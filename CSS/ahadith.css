@@ -3,8 +3,9 @@
 margin-top:100px;
 }
 .hadithContainer {
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fdf7e8));
-  background: -webkit-linear-gradient(top, transparent, #fdf7e8);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(211, 175, 96, 0.5)));
+  background: -webkit-linear-gradient(top, transparent, rgba(211, 175, 96, 0.5));
+
   min-height: 350px;
   position: relative;
   box-shadow: 4px 4px 4px 0 #d1d9e6 inset, -4px -4px 4px 0px #d1d9e6 inset;
@@ -61,7 +62,9 @@ margin-top:100px;
   -o-border-radius:10px ;
   padding: 20px;
   font-size: 18px;
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fdf7e8));
-  background: -webkit-linear-gradient(top, transparent, #fdf7e8);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(211, 175, 96, 0.5)));
+  background: -webkit-linear-gradient(top, transparent, rgba(211, 175, 96, 0.5));
+  color: var(--main-color);
+
 
 }

@@ -3,6 +3,10 @@
   overflow-y: scroll;
   width: 100%;
   padding-bottom: 60px;
+  /* border: 2px solid red; */
+  /* background-color: #e8dac3; */
+  background-image: url(../img/ART-32.png);
+  /* background-position: center; */
 }
 .radio-container .qarea {
   display: flex;
@@ -11,29 +15,34 @@
   font-size: 15px;
   gap: 5px;
   width: 100%;
-  border-bottom: 1px solid #3924ad;
+  border-bottom: 1px solid rgba(209, 168, 93, 0.5) ;
   padding: 0 10px;
-  /* margin-bottom: 10px; */
-  transition: all .3s ease;
+  /*margin-bottom: 10px;
+  */transition: all .3s ease;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -ms-transition: all .3s ease;
   -o-transition: all .3s ease;
-  
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .radio-container .qarea:hover {
 cursor: pointer;
-background: linear-gradient(to left, #190c64ce, #3924ad00);
-
+background: linear-gradient(270deg, #160E08 0%, rgba(63, 32, 12, 0.06) 66.08%),
+linear-gradient(0deg, rgba(209, 168, 93, 0.5), rgba(209, 168, 93, 0.5));
 }
 .radio-container .qarea.active {
-  background: linear-gradient(to left, #190c64ce, #3924ad00);
-}
+  background: linear-gradient(270deg, #160E08 0%, rgba(63, 32, 12, 0.06) 66.08%),
+  linear-gradient(0deg, rgba(209, 168, 93, 0.5), rgba(209, 168, 93, 0.5));}
 .radio-container img {
   width: 50px;
   border-radius: 50%;
-  background: linear-gradient(to right, #190c64, #3319c7);
-}
+  background: linear-gradient(269.96deg, rgba(105, 77, 57, 0.91) 1.35%, rgba(34, 21, 13, 0.94) 98.89%),
+  linear-gradient(0deg, rgba(211, 175, 96, 0.5), rgba(211, 175, 96, 0.5));
+  }
 
 .container-radio {
   position: relative;
